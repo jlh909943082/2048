@@ -1,0 +1,368 @@
+@media (min-width: 320px) {
+  html {
+    font-size: 21.33px;
+  }
+}
+
+@media (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+
+@media (min-width: 400px) {
+  html {
+    font-size: 26.67px;
+  }
+}
+
+@media (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+
+@media (min-width: 424px) {
+  html {
+    font-size: 28.27px;
+  }
+}
+
+@media (min-width: 460px) {
+  html {
+    font-size: 30.67px;
+  }
+}
+
+@media (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #faf8ef;
+  color: #776e65;
+  font-family: "PingFangSC-Medium", "Microsoft YaHei", sans-serif, 'Microsoft Sans Serif', 'Microsoft JhengHei UI';
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-tap-highlight-color:transparent;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.5;
+  -webkit-text-stroke: 1px #7A5B0A;
+  text-stroke: 1px #7A5B0A;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.Homecontainer {
+  background: url("../img/di.png") no-repeat center;
+  background-size: 100% 100%;
+  padding: 1rem 1.2rem;
+  position: relative;
+}
+.Homecontainer .topContent .logo {
+  margin-left: -1.2rem;
+}
+.Homecontainer .topContent .logo img {
+  width: 6.68rem;
+  height: 4.28rem;
+}
+
+.Homecontainer .topContent .selfInfo .nickname {
+  box-sizing: border-box;
+  width: 5.7rem;
+  height: 2.2rem;
+  border: 2px solid rgba(143, 102, 60, 1);
+  border-radius: .2rem;
+  padding-top: .32rem;
+  margin-bottom: .26rem;
+}
+
+.Homecontainer .topContent .selfInfo .nickname img {
+  width: 1.48rem;
+  height: 1.48rem;
+  border-radius: 50%;
+  margin: 0 .28rem 0 .2rem;
+  vertical-align: middle;
+}
+
+.Homecontainer .topContent .selfInfo .nickname span {
+  display: inline-block;
+  width: 3.1rem;
+  font-size: .52rem;
+  font-weight: 500;
+  color: rgba(113, 88, 57, 1);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.Homecontainer .topContent .selfInfo .btns {
+  display: flex;
+}
+
+.Homecontainer .topContent .selfInfo .btns .bgm,
+.Homecontainer .topContent .selfInfo .btns .bondPhone {
+  flex: 1;
+}
+
+.Homecontainer .topContent .selfInfo .btns .bgm p,
+.Homecontainer .topContent .selfInfo .btns .bondPhone p {
+  font-size: .4rem;
+  font-weight: 500;
+  color: rgba(113, 88, 57, 1);
+  margin: .26rem 0 0;
+  text-align: center;
+}
+
+.Homecontainer .topContent .selfInfo .btns .bondPhone p {
+  margin: .15rem 0 0;
+}
+
+.Homecontainer .topContent .selfInfo .btns .bgm div {
+  width: 1.12rem;
+  height: 1.06rem;
+  background: url("../img/3.png") no-repeat center;
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+
+.Homecontainer .topContent .selfInfo .btns .bgm.active div {
+  background: url("../img/2.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.Homecontainer .topContent .selfInfo .btns .bondPhone div {
+  width: .66rem;
+  height: 1.18rem;
+  background: url("../img/shoujidianzhao.png") no-repeat center;
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+
+.Homecontainer .points {
+  margin-top: .44rem;
+}
+
+.Homecontainer .points ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Homecontainer .points ul li {
+  width: 50%;
+  position: relative;
+  margin-bottom: .6rem;
+}
+
+.Homecontainer .points ul li:nth-child(2n) {
+  text-align: right;
+}
+
+.Homecontainer .points ul li:nth-child(2n) p {
+  left: .56rem;
+}
+
+.Homecontainer .points ul li img {
+  width: 4.88rem;
+  height: 4.38rem;
+}
+
+.Homecontainer .points ul li p {
+  width: .48rem;
+  font-size: .48rem;
+  font-weight: 500;
+  color: rgba(113, 88, 57, 1);
+  position: absolute;
+  right: .56rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  display: none;
+}
+
+.mask .frame {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5.4rem;
+  width: 13rem;
+  height: 8.36rem;
+  background: url("../img/balck.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.mask .frame h4 {
+  font-size: .68rem;
+  font-family: Adobe Heiti Std R;
+  font-weight: bold;
+  color: rgba(134, 105, 87, 1);
+  -webkit-text-stroke: 1px #fff;
+  text-stroke: 1px #fff;
+  margin-top: .32rem;
+  text-align: center;
+}
+
+.mask .frame .inputItem {
+  position: relative;
+  width: 9.6rem;
+  height: 1.6rem;
+  margin: 1.4rem auto 0;
+  border-radius: 5px;
+  background: #A79374;
+}
+
+.mask .frame .inputItem:nth-of-type(2) {
+  margin-top: .8rem;
+}
+
+.mask .frame .inputItem input {
+  box-sizing: border-box;
+  height: 100%;
+  width: 50%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: .5rem;
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.5;
+}
+
+.mask .frame .inputItem.codeInput button {
+  position: absolute;
+  right: .52rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: .65rem;
+  font-family: PingFangSC-Regular;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 24px;
+  -webkit-text-stroke: 1px #7A5B0A;
+  text-stroke: 1px #7A5B0A;
+}
+
+.mask .frame .closeBtn {
+  width: .96rem;
+  height: .96rem;
+  position: absolute;
+  top: .18rem;
+  right: .46rem;
+  background: url("../img/BtnCloseNor.png") no-repeat center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.mask .frame .confirmBtn {
+  width: 3.92rem;
+  height: 2.06rem;
+  position: absolute;
+  bottom: -1.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: url("../img/sure.png") no-repeat center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.errtip {
+  width: 100%;
+  font-size: .65rem;
+  position: fixed;
+  bottom: 1rem;
+  left: 0;
+  text-align: center;
+  color: #ff0000;
+  z-index: 1;
+  display: none;
+}
+.mask.cannotBegin {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,.8);
+  z-index: 999;
+  display: none;
+  padding-top: 3rem;
+}
+.mask.cannotBegin p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
